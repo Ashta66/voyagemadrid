@@ -1,0 +1,13 @@
+MADRID · carnet de voyage — mode d'emploi
+
+1) En local (simple) : ouvre index.html dans le navigateur. Tout marche, sauf l'installation et le mode hors ligne.
+
+2) Installer sur le téléphone + hors ligne (optionnel) : héberge ces 5 fichiers dans le même dossier
+   index.html, sw.js, manifest.webmanifest, icon.svg, icon-192.png, icon-512.png
+   (par exemple Netlify Drop ou GitHub Pages, adresse en https), puis :
+   - Android (Chrome) : menu ⋮ > « Installer l'application ».
+   - iPhone (Safari) : Partager > « Sur l'écran d'accueil ».
+   Ouvre l'appli une fois avec du réseau, puis utilise « 📥 Carte hors ligne » sur la zone voulue.
+   Tes données restent dans ton navigateur : exporte une sauvegarde via « 💾 Sauvegardes ».
+
+3) Les photos (journal, casitas) restent sur l'appareil et ne sont pas dans les sauvegardes JSON.
